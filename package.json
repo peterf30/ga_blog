@@ -1,9 +1,9 @@
 {
   "name": "my-package",
   "scripts": {
-    "build": "npm-run-build",
-    "test": "npm-test",
-    "license": "ISC",
+    "build": "yarn-run-build",
+    "test": "yarn-test",
+    "license": "UNLICENSED",
     "private": "true"  
   }
 }
