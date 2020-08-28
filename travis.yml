@@ -4,10 +4,10 @@ node_js:
 cache: npm  
 
 install: 
-  - yarn test
   - yarn install
 
 script:
+  - yarn test
   - yarn run build
   
 deploy:
