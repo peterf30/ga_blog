@@ -1,14 +1,14 @@
 language: node_js
 node_js:
   - 14.2.0
-cache: yarn  
+cache: npm  
 
 install: 
-  - yarn test
-  - yarn install
+  - npm test
+  - npm install
 
 script:
-  - yarn run build
+  - npm run build
   
 deploy:
   provider: pages
