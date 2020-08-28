@@ -1,0 +1,7 @@
+{
+  "name": "my-package",
+  "scripts": {
+    "build": "yarn-run-build",
+    "test": "yarn-test"  
+  }
+}
