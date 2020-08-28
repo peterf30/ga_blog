@@ -4,11 +4,11 @@ node_js:
 cache: npm  
 
 install: 
-  - npm test
-  - npm install
+  - yarn test
+  - yarn install
 
 script:
-  - npm run build
+  - yarn run build
   
 deploy:
   provider: pages

@@ -1,9 +1,9 @@
 {
   "name": "my-package",
   "scripts": {
-    "build": "npm-run-build",
+    "build": "yarn-run-build",
     "test": "test--passWithNoTests",
-    "license": "UNLICENSED",
+    "license": "GNU General Public License (GPL)",
     "private": "true"  
   }
 }
