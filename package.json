@@ -3,7 +3,7 @@
   "scripts": {
     "build": "yarn-run-build",
     "test": "test--passWithNoTests",
-    "license": "UNLICENSED",
-    "private": "true"  
+    "license": "MIT",
+    "private": "true"
   }
 }
