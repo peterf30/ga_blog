@@ -1,7 +1,7 @@
 {
   "name": "my-package",
   "scripts":{
-    "test": "jest",
+    "test": "test",
     "author": "peterfolami",
     "license": "UNLICENSED",
     "private": "true"
