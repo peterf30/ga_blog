@@ -1,0 +1,10 @@
+{
+  "name": "my-package",
+  "scripts": {
+    "build": "yarn run build",
+    "test": "test --passWithNoTests",
+    "author": "peterfolami",
+    "license": "MIT",
+    "private": "true"
+  }
+}
