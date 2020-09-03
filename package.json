@@ -1,7 +1,7 @@
 {
   "name": "my-package",
   "scripts": {
-    "test": "test--passWithNoTests",
+    "test": "test --passWithNoTests",
     "author": "peterfolami",
     "license": "MIT",
     "private": "true"
