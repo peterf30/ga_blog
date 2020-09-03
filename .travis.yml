@@ -3,16 +3,19 @@ node_js:
   - 14.2.0
 cache: yarn  
 
+dist: xenial
+
 install: 
   - yarn install
 
 script:
-  - yarn test
+  - yarn run test
   - yarn run build
   
 deploy:
   provider: pages
-  skip-cleanup: true
-  github token: $GITHUB_TOKEN
+  allow_failure: true
+  cleanup: true
+  github_token: $GITHUB_TOKEN
   on:
-    branch: gh-pages  
+    branch: master
