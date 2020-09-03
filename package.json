@@ -1,9 +1,9 @@
 {
   "name": "my-package",
   "scripts":{
-    "test": "test --passwithNoTests",
+    "test": "node --expose-gc tools/test.js",
     "author": "peterfolami",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "private": "true"
   }  
 }
