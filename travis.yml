@@ -12,6 +12,7 @@ script:
   
 deploy:
   provider: pages
+  allow_failure: true
   cleanup: true
   github_token: $GITHUB_TOKEN
   on:
