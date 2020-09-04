@@ -13,9 +13,9 @@ script:
   
   
 deploy:
-  provider: pages
-  allow_failure: true
+  provider: s3
+  access_key_id: "AKIAZVB6FX5QKHXNXHHF"
+  secret_access_key: "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"
+  bucket: "S3 bucket"
   cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: master
+  
