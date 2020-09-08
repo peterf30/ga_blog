@@ -14,8 +14,8 @@ script:
   
 deploy:
   provider: s3
-  access_key_id: "AKIAZVB6FX5QKHXNXHHF"
-  secret_access_key: "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"
-  bucket: "S3 bucket"
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  bucket: www.blogread.co.uk
   cleanup: true
   
