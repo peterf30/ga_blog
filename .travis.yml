@@ -18,5 +18,6 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: eu-west-2
   bucket: www.blogread.co.uk
+  acl: public_read
   cleanup: true
   
