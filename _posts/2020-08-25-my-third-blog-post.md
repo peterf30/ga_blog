@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Healhty Eating" 
+title: "Healthy Eating" 
 date: 2020-08-25 18:34 +01:00
 ---
 
