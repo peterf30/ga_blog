@@ -1,13 +1,14 @@
 language: ruby
-node_js:
+rvm:
   - 2.7.1
-
+cache: yarn
+dist: xenial
 
 install: 
-  - gem install jekyll
+  - yarn install
 
 script:
-  - jekyll build
+  - yarn run test
   
   
 deploy:
