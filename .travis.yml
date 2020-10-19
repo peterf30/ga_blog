@@ -1,23 +1,24 @@
 language: node_js
 node_js:
   - 14.2.0
-cache: yarn  
 
-dist: xenial
 
 install: 
-  - yarn install
+  - gem install jekyll
 
 script:
-  - yarn run test
+  - jekyll build
   
   
 deploy:
+  on:
+    branch: master
   provider: s3
+  bucket: www.blogread.co.uk
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: eu-west-2
-  bucket: www.blogread.co.uk
   acl: public_read
   cleanup: true
+  local_dir: ./_site
   
